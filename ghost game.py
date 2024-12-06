@@ -1,5 +1,5 @@
 from random import randint
-print('Игра ПривидениЯ')
+print('Ghost Game')
 feeling_brave=True
 score=0
 while feeling_brave:
@@ -12,7 +12,7 @@ while feeling_brave:
     if door_num==ghost_door:
         print('ПРИВИДЕНИЕ!!!')
         print('Беги от сюда!')
-        print('ИГРА ОКОНЧНА!') 
+        print('ИГРА ОКОНЧЕНА!') 
         feeling_brave=False
     else:
         print('Нет привидения, вы переходите в следующую комнату ')
